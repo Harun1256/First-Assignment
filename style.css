@@ -1,0 +1,52 @@
+/* navbar style */
+.navbar{
+    position: absolute;
+    background-color: rgb(245, 245, 245);;
+    width: 1272px;
+    height: 100px;
+    left: 0;
+    top: 0;
+}
+.logo{
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items:center;
+gap: 10;
+padding: 24px 160px 24px 160px;
+}
+.logo a{
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 25px;
+    font-weight: 500px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-size-adjust: ;
+}
+
+.nav-div{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 24px 160px 24px 160px;
+}
+.right{
+border: rgb(0, 106, 80);
+border-radius: 4px;
+
+}
+.right a button {
+    text-decoration: none;
+    color: rgb(0, 106, 80);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+padding: 3px;
+}
